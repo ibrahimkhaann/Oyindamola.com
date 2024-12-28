@@ -1,0 +1,479 @@
+/* All Commom CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", serif;
+}
+
+a,
+a:hover {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+ol,
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Commom CSS End */
+
+
+
+/* navbar Part Start */
+.nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    color: aquamarine;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.sticky_header {
+    background: teal;
+    animation: alamin 1s;
+}
+
+@keyframes alamin {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+.back-to-top i {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 40px;
+    color: #5E3BEE;
+}
+
+
+/* navbar Part End */
+
+
+
+/* top header Part Start */
+#top-header-part {
+    padding-top: 130px;
+    padding-bottom: 200px;
+    background-color: #171717;
+}
+
+.top-header-item {
+    padding-top: 160px;
+}
+
+.top-header-item h4 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.top-header-item h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 25px;
+
+}
+
+.top-header-item p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #828282;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.top-header-flex {
+    display: flex;
+}
+
+.top-header-flex1 a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #27AE60;
+    padding: 10px 25px;
+    border: 1px solid #27AE60;
+    transition: .4s;
+}
+
+.top-header-flex1 a:hover {
+    color: #27AE60;
+    background-color: white;
+}
+
+.top-header-flex2 {
+    margin-left: 15px;
+}
+
+.top-header-flex2 a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: black;
+    padding: 10px 25px;
+    border: 1px solid white;
+    transition: .4s;
+}
+
+.top-header-flex2 a:hover {
+    color: #27AE60;
+}
+
+.header-part {
+    padding-top: 50px;
+}
+
+.header-part p {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.header-part h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0 303px;
+    line-height: 25px;
+    padding-bottom: 65px;
+}
+
+.header1 {
+    padding: 25px;
+    border-radius: 50%;
+    background-color: #212121;
+    width: 35%;
+    margin-left: 64px;
+
+}
+
+.header2 {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #27AE60;
+    width: 20%;
+}
+
+.header-dag p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.header-dag h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.header-part h4 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 90px 0;
+}
+
+.what-about {
+    padding: 35px;
+    background-color: #212121;
+    transition: .4s;
+}
+
+.what-about h3 {
+    color: #535353;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 25px;
+    line-height: 40px;
+}
+
+.what-about:hover {
+    -webkit-box-shadow: 0px 7px 4px 0px rgba(39, 174, 96, 1);
+    -moz-box-shadow: 0px 7px 4px 0px rgba(39, 174, 96, 1);
+    box-shadow: 0px 7px 4px 0px rgba(39, 174, 96, 1);
+}
+
+.skill-part h4 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 90px 0;
+}
+
+.skill-body-part {
+    padding: 60px 0;
+    background-color: #333333;
+}
+
+.skill-item h3 {
+    color: #4F4F4F;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.skill-item h4 {
+    color: #27AE60;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: -25px;
+}
+
+.last-part h3 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.last-item-part input {
+    padding: 10px 180px 10px 10px;
+    border: 1px solid #4F4F4F;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.last-item-part2 input {
+    padding: 10px 623px 100px 10px;
+    border: 1px solid #4F4F4F;
+    background: transparent;
+    color: white;
+}
+
+.last-btn a {
+    padding: 10px 20px;
+    background-color: #27AE60;
+    border: 1px solid #27AE60;
+    color: #FFFFFF;
+    transition: .4s;
+    margin-top: 100px;
+    margin-left: 130px;
+
+}
+.last-btn a:hover{
+    color: #27AE60;
+    background-color: #fff;
+}
+.last-btn  h4{
+    color: #4F4F4F;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-left:127px;
+}
+
+
+
+/* top header Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
