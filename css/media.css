@@ -1,18 +1,223 @@
 /* Extra large devices */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {}
 
 
 /* Large devices */
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 
 /* Medium devices */
-@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .navbar-toggler i {
+      color: green;
+      margin-left: -20px;
+   }
+   .navbar-brand img {
+      margin-left: -22px;
+   }
+   .top-header-item {
+      padding-top: 0px;
+   }
+   .top-header-item h3 {
+      font-size: 30px;
+   }
+   .top-header-item h4 {
+      font-size: 30px;
+   }
+   .top-header-item p {
+      font-size: 16px;
+      margin-bottom: 17px;
+   }
+   .top-header-flex1 a {
+      font-size: 12px;
+      padding: 10px 11px;
+   }
+   .top-header-item-img img {
+      margin-left: 22px;
+   }
+   .header-part h6 {
+       margin: 0; 
+   }
+   .header1 {
+      padding: 109px;
+      width: 36%;
+      margin-left: 217px;
+      margin-top: 20px;
+   }
+   .what-about {
+      margin-bottom: 20px;
+   }
+   .header-part h4 {
+      margin: 40px 0;
+   }
+   .skill-part h4 {
+      margin: 40px 0;
+   }
+   .skill-item h3 {
+      font-size: 45px;
+   }
+   .last-part h3 {
+      margin: 40px 0;
+   }
+   .last-item-part2 input {
+      padding: 10px 177px 100px 10px;
+   }
+   .last-btn a {
+      margin-top: 37px;
+      margin-left: -294px;
+   }
+   .last-btn h4 {
+      margin-top: 55px;
+      margin-left: -282px;
+   }
+}
 
 
 /* Small devices */
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /* top header part start  */
+     .navbar-toggler i {
+      color: green;
+      margin-left: -20px;
+   }
+   .navbar-brand img {
+      margin-left: -22px;
+   }
+   .top-header-item {
+      padding-top: 0px;
+   }
+   .top-header-item h3 {
+      font-size: 30px;
+   }
+   .top-header-item h4 {
+      font-size: 30px;
+   }
+   .top-header-item p {
+      font-size: 16px;
+      margin-bottom: 17px;
+   }
+   .top-header-flex1 a {
+      font-size: 12px;
+      padding: 10px 11px;
+   }
+   .top-header-item-img img {
+      margin-left: -66px;
+   }
+   .header-part h6 {
+       margin: 0; 
+   }
+   .header1 {
+      padding: 83px;
+      width: 36%;
+      margin-left: 159px;
+      margin-top: 20px;
+   }
+   .what-about {
+      margin-bottom: 20px;
+   }
+   .header-part h4 {
+      margin: 40px 0;
+   }
+   .skill-part h4 {
+      margin: 40px 0;
+   }
+   .skill-item h3 {
+      font-size: 45px;
+   }
+   .last-part h3 {
+      margin: 40px 0;
+   }
+   .last-item-part2 input {
+      padding: 10px 177px 100px 10px;
+   }
+   .last-btn a {
+      margin-top: 37px;
+      margin-left: -80px;
+   }
+   .last-btn h4 {
+      margin-top: 55px;
+      margin-left: -69px;
+   }
+
+}
 
 
 /* Extra small devices */
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) {
+
+   /* top header part start  */
+   .navbar-toggler i {
+      color: green;
+      margin-left: -202px;
+   }
+   .top-header-item {
+      padding-top: 0px;
+   }
+   .top-header-item h3 {
+      font-size: 30px;
+   }
+   .top-header-item h4 {
+      font-size: 30px;
+   }
+   .top-header-item p {
+      font-size: 16px;
+      margin-bottom: 17px;
+   }
+   .top-header-flex1 a {
+      font-size: 12px;
+      padding: 10px 11px;
+   }
+   .top-header-item-img img{
+      margin-left: -30px;
+   }
+   .header-part h6 {
+       margin: 0; 
+   }
+   .header1 {
+      padding: 83px;
+      width: 36%;
+      margin-left: 159px;
+      margin-top: 20px;
+   }
+   .what-about {
+      margin-bottom: 20px;
+   }
+   .header-part h4 {
+      margin: 40px 0;
+   }
+   .skill-part h4 {
+      margin: 40px 0;
+   }
+   .skill-item h3 {
+      font-size: 45px;
+   }
+   .last-part h3 {
+      margin: 40px 0;
+   }
+   .last-item-part2 input {
+      padding: 10px 177px 100px 10px;
+   }
+   .last-btn a {
+      margin-top: 37px;
+      margin-left: -80px;
+   }
+   .last-btn h4 {
+      margin-top: 55px;
+      margin-left: -69px;
+   }
+
+
+
+
+
+
+
+}
+
+/* top header part end */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */
+/* top header part start  */

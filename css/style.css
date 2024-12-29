@@ -308,6 +308,12 @@ p {
     margin-top: 120px;
     margin-left:127px;
 }
+.skill-body-flex-item2{
+    display: flex;
+}
+.skill-item{
+    width: 25%;
+}
 
 
 
