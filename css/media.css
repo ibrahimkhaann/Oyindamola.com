@@ -12,6 +12,11 @@
       color: green;
       margin-left: -20px;
    }
+     *{
+        overflow-x:hidden;
+        line-height: normal !important;
+    }
+    
    .navbar-brand img {
       margin-left: -22px;
    }
@@ -80,6 +85,11 @@
       color: green;
       margin-left: -20px;
    }
+     *{
+        overflow-x:hidden;
+        line-height: normal !important;
+    }
+    
    .navbar-brand img {
       margin-left: -22px;
    }
@@ -150,6 +160,11 @@
       color: green;
       margin-left: -202px;
    }
+     *{
+        overflow-x:hidden;
+        line-height: normal !important;
+    }
+    
    .top-header-item {
       padding-top: 0px;
    }
